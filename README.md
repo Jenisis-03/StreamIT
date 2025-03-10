@@ -38,19 +38,19 @@ This project creates a seamless live streaming experience powered by Next.js and
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](/images/screenshots/home-page.png)
+![Home Page](./public/images/screenshots/home-page.png)
 
 ### Stream Creation
-![Stream Creation](/images/screenshots/create-stream.png)
+![Stream Creation](./public/images/screenshots/create-stream.png)
 
 ### Live Streaming Interface
-![Live Streaming](/images/screenshots/live-stream.png)
+![Live Streaming](./public/images/screenshots/live-stream.png)
 
 ### Mobile View
-![Mobile View](/images/screenshots/mobile-view.png)
+![Mobile View](./public/images/screenshots/mobile-view.png)
 
 ### Chat Interface
-![Chat Interface](/images/screenshots/chat-interface.png)
+![Chat Interface](./public/images/screenshots/chat-interface.png)
 
 ## 🛠️ Tech Stack
 
@@ -73,7 +73,7 @@ Before you begin, ensure you have the following:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/umairjameel321/nextjslivestream-zegocloud.git
+git clone https://github.com/yourusername/nextjslivestream-zegocloud.git
 cd nextjslivestream-zegocloud
 ```
 
@@ -92,6 +92,14 @@ yarn install
 NEXT_PUBLIC_ZEGO_APP_ID=your_zego_app_id
 NEXT_PUBLIC_ZEGO_SERVER_SECRET=your_zego_server_secret
 ```
+
+4. Make sure to create the images directory structure:
+
+```bash
+mkdir -p public/images/screenshots
+```
+
+5. Add your screenshot images to the `public/images/screenshots` directory.
 
 ## ⚙️ Configuration
 
@@ -298,6 +306,10 @@ As a host or co-host, you can invite others by sharing links:
    - **Challenge**: Properly cleaning up ZegoCloud SDK on component unmount
    - **Solution**: Cleanup function in useEffect's return callback
 
+5. **Image Display Issues**
+   - **Challenge**: Images not properly displaying in the application and README
+   - **Solution**: Correct file path structure and proper usage of Next.js Image component
+
 ## 👥 Contributing
 
 Contributions are welcome! To contribute:
@@ -314,4 +326,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Created by [Umair Jameel](https://github.com/umairjameel321)
+Built with ❤️ by [Your Name](https://github.com/yourusername)
