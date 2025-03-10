@@ -70,8 +70,24 @@ export default function Home() {
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600"></div>
       
       <div className="min-h-screen w-full flex flex-col">
+        {/* Stream IT Logo and Title */}
+        <div className="flex justify-center mt-8 mb-2">
+          <div className="relative">
+            <h1 className="text-5xl md:text-6xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 animate-pulse">
+              Stream IT
+            </h1>
+            <div className="absolute -top-2 -left-2 -right-2 -bottom-2 bg-gradient-to-r from-cyan-500/30 via-blue-500/20 to-purple-600/30 blur-xl rounded-full opacity-50 -z-10"></div>
+            <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-cyan-500 to-purple-600"></div>
+          </div>
+        </div>
+        
+        {/* Tagline */}
+        <div className="text-center mb-6">
+          <p className="text-gray-400 text-sm font-medium">Broadcast your world, connect with everyone</p>
+        </div>
+        
         {/* Main login card section */}
-        <div className="flex items-center justify-center px-6 py-16 md:py-24">
+        <div className="flex items-center justify-center px-6 py-8 md:py-16">
           <div className="w-full max-w-md rounded-2xl backdrop-blur-xl bg-white/10 p-6 md:p-8 shadow-2xl border border-white/10 transition-all duration-300">
             <div className="text-center mb-6">
               <div className="inline-flex p-3 rounded-full bg-blue-600/20 ring-1 ring-blue-500/30 mb-4">
@@ -84,7 +100,7 @@ export default function Home() {
                 Smooth Live Streaming
               </h1>
               <p className="text-gray-300 text-sm mx-auto max-w-xs">
-                Professional SDK for global communication and streaming
+                Professional Platform for global communication and Streaming.
               </p>
             </div>
             
