@@ -45,13 +45,6 @@ This project creates a seamless live streaming experience powered by Next.js and
 
 ### Live Streaming Interface
 ![Live Streaming](./public/images/screenshots/live-stream.png)
-
-### Mobile View
-![Mobile View](./public/images/screenshots/mobile-view.png)
-
-### Chat Interface
-![Chat Interface](./public/images/screenshots/chat-interface.png)
-
 ## 🛠️ Tech Stack
 
 - **Frontend Framework**: Next.js 14 (App Router)
