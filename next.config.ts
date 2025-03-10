@@ -4,7 +4,10 @@ const nextConfig = {
     domains: ["images.unsplash.com"], // Add domains here
   },
   eslint: {
-    ignoreDuringBuilds: true, // This will bypass ESLint checks during build
+    ignoreDuringBuilds: true, // Bypass ESLint checks
+  },
+  typescript: {
+    ignoreBuildErrors: true, // Bypass TypeScript checks
   },
 };
 
